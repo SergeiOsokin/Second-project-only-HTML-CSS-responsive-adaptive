@@ -1,0 +1,9 @@
+@import url("./_val/_val.css");
+
+.header__langs {
+    display:flex;
+    flex-direction:row;
+    width:78px;
+    margin-bottom:12px;
+}
+

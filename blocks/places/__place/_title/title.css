@@ -1,0 +1,41 @@
+
+.title {
+    flex-basis:457px;
+    margin:0px 0px 60px 0px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 65px;  
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    .title {
+        margin:0px 0px 40px 0px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .title {
+    flex-basis:340px;
+    font-size: 42px;
+    line-height: 46px; 
+    margin:0px 0px 40px 0px; 
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:767px) {
+    .title {
+    font-size: 32px;
+    line-height: 35px; 
+    margin:0px 0px 32px 16px; 
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:374px) {
+    .title {
+    font-size: 32px;
+    line-height: 35px; 
+    margin:0px 0px 32px 16px; 
+    }
+}

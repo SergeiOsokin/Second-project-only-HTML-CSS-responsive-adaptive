@@ -1,0 +1,7 @@
+@import url("./_text/text.css");
+
+.intro__content-row {
+    display:flex;
+    max-width:984px;
+    margin:0px;
+}

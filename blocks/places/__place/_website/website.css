@@ -1,0 +1,46 @@
+
+.website {
+    flex-basis:484px;
+    margin:0 0 60px 40px;
+    flex:1 1 400px;
+    align-self:flex-end;
+}
+
+.website__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    margin:0px;
+    color: #AAAAAA;
+}
+
+.website__url {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    margin:16px 0px 0px 0px;
+    color:#FFF; 
+    text-decoration-line: underline;
+}
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    .website {
+        margin:0px 0px 40px 32px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .website {
+        flex-basis:352px;
+        margin:0px 0px 40px 28px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .website {
+        display:none;
+    }
+}

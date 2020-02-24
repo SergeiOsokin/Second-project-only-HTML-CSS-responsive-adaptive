@@ -1,0 +1,58 @@
+
+.cover__title {
+    position:absolute;
+    max-width: 1094.27px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+/*    margin:274px 0px 0px;*/
+    top:50%;
+    transform: translateY(-50%);
+    margin:0;
+}
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    .cover__title {
+    /*    margin:211px 0px 0px;*/
+        max-width: 50%;
+        top:50%;                     /*делаем картинку по центру*/
+        transform: translateY(-50%); /*делаем картинку по центру*/
+        margin:0;                    /*делаем картинку по центру*/
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .cover__title {
+    /*    margin:165px 24px 0px;*/
+        max-width: 70%;
+        top:50%;                     /*делаем картинку по центру*/
+        transform: translateY(-50%); /*делаем картинку по центру*/
+        margin:0;                    /*делаем картинку по центру*/
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:767px) {
+    .cover__title {
+    /*    margin-top:94px;*/
+        width: 65%;
+        font-size: 32px;
+        line-height: 35px;
+        top:50%;                     /*делаем картинку по центру*/
+        transform: translateY(-50%); /*делаем картинку по центру*/
+        margin:0;                    /*делаем картинку по центру*/
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:374px) {
+    .cover__title {
+    /*    margin-top:64px;*/
+        width: 75%;
+        font-size: 32px;
+        line-height: 35px;
+        top:50%;
+        transform: translateY(-50%);
+        margin:0;
+    }
+}

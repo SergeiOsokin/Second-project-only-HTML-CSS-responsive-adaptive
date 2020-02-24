@@ -1,0 +1,58 @@
+@import url("../vendor/normalize.css");
+@import url("../blocks/comments/comments.css");
+@import url("../blocks/cover/cover.css");
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/header/header.css");
+@import url("../blocks/intro/intro.css");
+@import url("../blocks/lead/lead.css");
+@import url("../blocks/photo-grid/photo-grid.css");
+@import url("../blocks/places/places.css");
+@import url("../blocks/video/video.css");
+
+.page {
+    font-family:'Inter', Arial, Helvetica, sans-serif;
+    max-width: 1280px;
+    background: #2A2C2F;
+    color:#FFF;   
+    margin:0 auto;
+    font-style: normal;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    width: auto;
+    height: auto;
+    background: #2A2C2F;
+}
+
+a {
+    transition:opacity 0.5s ease-in-out;
+}
+
+a:hover {
+    opacity:0.7;
+}
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    .page {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .page {
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:374px) {
+    .page {
+        max-width: 320px;
+    }
+}
+

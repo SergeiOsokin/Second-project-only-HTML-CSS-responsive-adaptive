@@ -1,0 +1,26 @@
+
+.header__lang {
+    margin:0px;
+    width:30px;
+    font-size: 24px;
+    line-height: 23px;
+    font-style: normal;
+    font-weight: normal;
+    color:#FFF;
+}
+
+.header__lang:nth-child(2) {
+    margin-left:18px;
+    text-decoration: none;
+}
+
+.header__lang_val {
+    text-decoration-line: underline;
+}
+
+@media screen and (min-width:375px) and (max-width:767px) {
+    .header__lang {
+    font-size: 18px;
+    line-height: 96%;
+    }
+}
