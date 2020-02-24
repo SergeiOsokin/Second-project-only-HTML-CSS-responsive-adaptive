@@ -1,6 +1,7 @@
 # Second-project-only-HTML-CSS-responsive-adaptive
 
-В работе используется HTML и CSS
+This project uses advanced HTML and CSS
+Here is project uses The BEM Methodology.
 
-Данная работа представляет собой более углубленное применение методолигии БЭМ, а также использование адаптивного и отзывчивого дизайна.
+In this project I learned use adaptive and responsive design.
 
