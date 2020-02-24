@@ -5,3 +5,5 @@ Here is project uses The BEM Methodology.
 
 In this project I learned use adaptive and responsive design.
 
+This project was checked code review.
+
