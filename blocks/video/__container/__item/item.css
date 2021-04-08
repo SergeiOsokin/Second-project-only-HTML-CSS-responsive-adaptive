@@ -1,7 +1,6 @@
 
 .item {
     position:relative;
-
 }
 
 .item:first-child {
@@ -14,5 +13,8 @@
     }
     .item:last-child {
         margin-top:8px;
+    }
+    .item:first-child {
+        margin-right: 0;
     }
 }

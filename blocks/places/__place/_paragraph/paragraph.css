@@ -1,6 +1,6 @@
 
 .paragraph {
-    max-width:484px;
+    width:484px;
     margin:0px 0px 0px 40px;
     flex:1 1 400px;
 }
@@ -40,7 +40,7 @@
 
 @media screen and (min-width:375px) and (max-width:767px) {
     .paragraph {
-        max-width:343px;
+        width:100%;
         margin:24px 16px 0px;
     }
     .paragraph__text {
@@ -54,7 +54,7 @@
 
 @media screen and (min-width:320px) and (max-width:374px) {
     .paragraph {
-        max-width:288x;
+        width:100%;
         margin:24px 16px 0px;
     }
     .paragraph__text {
